@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Smoke test run">
+    <groups>
+        <run>
+            <include name="Smoke"/>
+        </run>
+    </groups>
+
+    <test name="Smoke: getters and setters">
+        <classes>
+            <class name="persondetails.TestWomanDetails"/>
+            <class name="persondetails.TestManDetails"/>
+        </classes>
+    </test>
+</suite>
