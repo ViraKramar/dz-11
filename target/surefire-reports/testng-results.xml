@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="28" passed="28" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-28T19:37:55 EEST" name="Regression test run" finished-at="2023-05-28T19:37:55 EEST" duration-ms="308">
+    <groups>
+      <group name="Smoke">
+        <method signature="TestManDetails.testAgeGet()[pri:0, instance:persondetails.TestManDetails@4b0b0854]" name="testAgeGet" class="persondetails.TestManDetails"/>
+        <method signature="TestManDetails.testAgeSet()[pri:0, instance:persondetails.TestManDetails@4b0b0854]" name="testAgeSet" class="persondetails.TestManDetails"/>
+        <method signature="TestManDetails.testFirstNameGet()[pri:0, instance:persondetails.TestManDetails@4b0b0854]" name="testFirstNameGet" class="persondetails.TestManDetails"/>
+        <method signature="TestManDetails.testFirstNameSet()[pri:0, instance:persondetails.TestManDetails@4b0b0854]" name="testFirstNameSet" class="persondetails.TestManDetails"/>
+        <method signature="TestManDetails.testHobbyGet()[pri:0, instance:persondetails.TestManDetails@4b0b0854]" name="testHobbyGet" class="persondetails.TestManDetails"/>
+        <method signature="TestManDetails.testHobbySet()[pri:0, instance:persondetails.TestManDetails@4b0b0854]" name="testHobbySet" class="persondetails.TestManDetails"/>
+        <method signature="TestManDetails.testLastNameGet()[pri:0, instance:persondetails.TestManDetails@4b0b0854]" name="testLastNameGet" class="persondetails.TestManDetails"/>
+        <method signature="TestManDetails.testLastNameSet()[pri:0, instance:persondetails.TestManDetails@4b0b0854]" name="testLastNameSet" class="persondetails.TestManDetails"/>
+        <method signature="TestManDetails.testPartnerGet()[pri:0, instance:persondetails.TestManDetails@4b0b0854]" name="testPartnerGet" class="persondetails.TestManDetails"/>
+        <method signature="TestManDetails.testPartnerSet()[pri:0, instance:persondetails.TestManDetails@4b0b0854]" name="testPartnerSet" class="persondetails.TestManDetails"/>
+        <method signature="TestWomanDetails.testAgeGet()[pri:0, instance:persondetails.TestWomanDetails@7f552bd3]" name="testAgeGet" class="persondetails.TestWomanDetails"/>
+        <method signature="TestWomanDetails.testAgeSet()[pri:0, instance:persondetails.TestWomanDetails@7f552bd3]" name="testAgeSet" class="persondetails.TestWomanDetails"/>
+        <method signature="TestWomanDetails.testFirstNameGet()[pri:0, instance:persondetails.TestWomanDetails@7f552bd3]" name="testFirstNameGet" class="persondetails.TestWomanDetails"/>
+        <method signature="TestWomanDetails.testFirstNameSet()[pri:0, instance:persondetails.TestWomanDetails@7f552bd3]" name="testFirstNameSet" class="persondetails.TestWomanDetails"/>
+        <method signature="TestWomanDetails.testHobbyGet()[pri:0, instance:persondetails.TestWomanDetails@7f552bd3]" name="testHobbyGet" class="persondetails.TestWomanDetails"/>
+        <method signature="TestWomanDetails.testHobbySet()[pri:0, instance:persondetails.TestWomanDetails@7f552bd3]" name="testHobbySet" class="persondetails.TestWomanDetails"/>
+        <method signature="TestWomanDetails.testLastNameGet()[pri:0, instance:persondetails.TestWomanDetails@7f552bd3]" name="testLastNameGet" class="persondetails.TestWomanDetails"/>
+        <method signature="TestWomanDetails.testLastNameSet()[pri:0, instance:persondetails.TestWomanDetails@7f552bd3]" name="testLastNameSet" class="persondetails.TestWomanDetails"/>
+        <method signature="TestWomanDetails.testPartnerGet()[pri:0, instance:persondetails.TestWomanDetails@7f552bd3]" name="testPartnerGet" class="persondetails.TestWomanDetails"/>
+        <method signature="TestWomanDetails.testPartnerSet()[pri:0, instance:persondetails.TestWomanDetails@7f552bd3]" name="testPartnerSet" class="persondetails.TestWomanDetails"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2023-05-28T19:37:55 EEST" name="Regression: all tests" finished-at="2023-05-28T19:37:55 EEST" duration-ms="308">
+      <class name="persondetails.TestWomanDetails">
+        <test-method is-config="true" signature="createMan()[pri:0, instance:persondetails.TestWomanDetails@7f552bd3]" started-at="2023-05-28T19:37:55 EEST" name="createMan" finished-at="2023-05-28T19:37:55 EEST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createMan -->
+        <test-method is-config="true" signature="createWoman()[pri:0, instance:persondetails.TestWomanDetails@7f552bd3]" started-at="2023-05-28T19:37:55 EEST" name="createWoman" finished-at="2023-05-28T19:37:55 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createWoman -->
+        <test-method signature="testAgeGet()[pri:0, instance:persondetails.TestWomanDetails@7f552bd3]" started-at="2023-05-28T19:37:55 EEST" name="testAgeGet" finished-at="2023-05-28T19:37:55 EEST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAgeGet -->
+        <test-method is-config="true" signature="createMan()[pri:0, instance:persondetails.TestWomanDetails@7f552bd3]" started-at="2023-05-28T19:37:55 EEST" name="createMan" finished-at="2023-05-28T19:37:55 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createMan -->
+        <test-method is-config="true" signature="createWoman()[pri:0, instance:persondetails.TestWomanDetails@7f552bd3]" started-at="2023-05-28T19:37:55 EEST" name="createWoman" finished-at="2023-05-28T19:37:55 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createWoman -->
+        <test-method signature="testAgeSet()[pri:0, instance:persondetails.TestWomanDetails@7f552bd3]" started-at="2023-05-28T19:37:55 EEST" name="testAgeSet" finished-at="2023-05-28T19:37:55 EEST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAgeSet -->
+        <test-method is-config="true" signature="createMan()[pri:0, instance:persondetails.TestWomanDetails@7f552bd3]" started-at="2023-05-28T19:37:55 EEST" name="createMan" finished-at="2023-05-28T19:37:55 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createMan -->
+        <test-method signature="testFirstNameGet()[pri:0, instance:persondetails.TestWomanDetails@7f552bd3]" started-at="2023-05-28T19:37:55 EEST" name="testFirstNameGet" finished-at="2023-05-28T19:37:55 EEST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFirstNameGet -->
+        <test-method is-config="true" signature="createWoman()[pri:0, instance:persondetails.TestWomanDetails@7f552bd3]" started-at="2023-05-28T19:37:55 EEST" name="createWoman" finished-at="2023-05-28T19:37:55 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createWoman -->
+        <test-method is-config="true" signature="createWoman()[pri:0, instance:persondetails.TestWomanDetails@7f552bd3]" started-at="2023-05-28T19:37:55 EEST" name="createWoman" finished-at="2023-05-28T19:37:55 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createWoman -->
+        <test-method is-config="true" signature="createMan()[pri:0, instance:persondetails.TestWomanDetails@7f552bd3]" started-at="2023-05-28T19:37:55 EEST" name="createMan" finished-at="2023-05-28T19:37:55 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createMan -->
+        <test-method signature="testFirstNameSet()[pri:0, instance:persondetails.TestWomanDetails@7f552bd3]" started-at="2023-05-28T19:37:55 EEST" name="testFirstNameSet" finished-at="2023-05-28T19:37:55 EEST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFirstNameSet -->
+        <test-method is-config="true" signature="createMan()[pri:0, instance:persondetails.TestWomanDetails@7f552bd3]" started-at="2023-05-28T19:37:55 EEST" name="createMan" finished-at="2023-05-28T19:37:55 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createMan -->
+        <test-method signature="testHobbyGet()[pri:0, instance:persondetails.TestWomanDetails@7f552bd3]" started-at="2023-05-28T19:37:55 EEST" name="testHobbyGet" finished-at="2023-05-28T19:37:55 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHobbyGet -->
+        <test-method is-config="true" signature="createWoman()[pri:0, instance:persondetails.TestWomanDetails@7f552bd3]" started-at="2023-05-28T19:37:55 EEST" name="createWoman" finished-at="2023-05-28T19:37:55 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createWoman -->
+        <test-method is-config="true" signature="createWoman()[pri:0, instance:persondetails.TestWomanDetails@7f552bd3]" started-at="2023-05-28T19:37:55 EEST" name="createWoman" finished-at="2023-05-28T19:37:55 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createWoman -->
+        <test-method is-config="true" signature="createMan()[pri:0, instance:persondetails.TestWomanDetails@7f552bd3]" started-at="2023-05-28T19:37:55 EEST" name="createMan" finished-at="2023-05-28T19:37:55 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createMan -->
+        <test-method signature="testHobbySet()[pri:0, instance:persondetails.TestWomanDetails@7f552bd3]" started-at="2023-05-28T19:37:55 EEST" name="testHobbySet" finished-at="2023-05-28T19:37:55 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHobbySet -->
+        <test-method is-config="true" signature="createMan()[pri:0, instance:persondetails.TestWomanDetails@7f552bd3]" started-at="2023-05-28T19:37:55 EEST" name="createMan" finished-at="2023-05-28T19:37:55 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createMan -->
+        <test-method is-config="true" signature="createWoman()[pri:0, instance:persondetails.TestWomanDetails@7f552bd3]" started-at="2023-05-28T19:37:55 EEST" name="createWoman" finished-at="2023-05-28T19:37:55 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createWoman -->
+        <test-method signature="testIfContain()[pri:0, instance:persondetails.TestWomanDetails@7f552bd3]" started-at="2023-05-28T19:37:55 EEST" name="testIfContain" finished-at="2023-05-28T19:37:55 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIfContain -->
+        <test-method is-config="true" signature="createMan()[pri:0, instance:persondetails.TestWomanDetails@7f552bd3]" started-at="2023-05-28T19:37:55 EEST" name="createMan" finished-at="2023-05-28T19:37:55 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createMan -->
+        <test-method signature="testIfDeregisterPartnership()[pri:0, instance:persondetails.TestWomanDetails@7f552bd3]" started-at="2023-05-28T19:37:55 EEST" name="testIfDeregisterPartnership" finished-at="2023-05-28T19:37:55 EEST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIfDeregisterPartnership -->
+        <test-method is-config="true" signature="createWoman()[pri:0, instance:persondetails.TestWomanDetails@7f552bd3]" started-at="2023-05-28T19:37:55 EEST" name="createWoman" finished-at="2023-05-28T19:37:55 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createWoman -->
+        <test-method is-config="true" signature="createMan()[pri:0, instance:persondetails.TestWomanDetails@7f552bd3]" started-at="2023-05-28T19:37:55 EEST" name="createMan" finished-at="2023-05-28T19:37:55 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createMan -->
+        <test-method signature="testIfHasBadge()[pri:0, instance:persondetails.TestWomanDetails@7f552bd3]" started-at="2023-05-28T19:37:55 EEST" name="testIfHasBadge" finished-at="2023-05-28T19:37:55 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIfHasBadge -->
+        <test-method is-config="true" signature="createWoman()[pri:0, instance:persondetails.TestWomanDetails@7f552bd3]" started-at="2023-05-28T19:37:55 EEST" name="createWoman" finished-at="2023-05-28T19:37:55 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createWoman -->
+        <test-method is-config="true" signature="createMan()[pri:0, instance:persondetails.TestWomanDetails@7f552bd3]" started-at="2023-05-28T19:37:55 EEST" name="createMan" finished-at="2023-05-28T19:37:55 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createMan -->
+        <test-method is-config="true" signature="createWoman()[pri:0, instance:persondetails.TestWomanDetails@7f552bd3]" started-at="2023-05-28T19:37:55 EEST" name="createWoman" finished-at="2023-05-28T19:37:55 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createWoman -->
+        <test-method signature="testIfRegisterPartnership()[pri:0, instance:persondetails.TestWomanDetails@7f552bd3]" started-at="2023-05-28T19:37:55 EEST" name="testIfRegisterPartnership" finished-at="2023-05-28T19:37:55 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIfRegisterPartnership -->
+        <test-method is-config="true" signature="createMan()[pri:0, instance:persondetails.TestWomanDetails@7f552bd3]" started-at="2023-05-28T19:37:55 EEST" name="createMan" finished-at="2023-05-28T19:37:55 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createMan -->
+        <test-method is-config="true" signature="createWoman()[pri:0, instance:persondetails.TestWomanDetails@7f552bd3]" started-at="2023-05-28T19:37:55 EEST" name="createWoman" finished-at="2023-05-28T19:37:55 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createWoman -->
+        <test-method signature="testIfWomanRetired()[pri:0, instance:persondetails.TestWomanDetails@7f552bd3]" started-at="2023-05-28T19:37:55 EEST" name="testIfWomanRetired" finished-at="2023-05-28T19:37:55 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIfWomanRetired -->
+        <test-method is-config="true" signature="createMan()[pri:0, instance:persondetails.TestWomanDetails@7f552bd3]" started-at="2023-05-28T19:37:55 EEST" name="createMan" finished-at="2023-05-28T19:37:55 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createMan -->
+        <test-method signature="testLastNameGet()[pri:0, instance:persondetails.TestWomanDetails@7f552bd3]" started-at="2023-05-28T19:37:55 EEST" name="testLastNameGet" finished-at="2023-05-28T19:37:55 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLastNameGet -->
+        <test-method is-config="true" signature="createWoman()[pri:0, instance:persondetails.TestWomanDetails@7f552bd3]" started-at="2023-05-28T19:37:55 EEST" name="createWoman" finished-at="2023-05-28T19:37:55 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createWoman -->
+        <test-method signature="testLastNameSet()[pri:0, instance:persondetails.TestWomanDetails@7f552bd3]" started-at="2023-05-28T19:37:55 EEST" name="testLastNameSet" finished-at="2023-05-28T19:37:55 EEST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLastNameSet -->
+        <test-method is-config="true" signature="createWoman()[pri:0, instance:persondetails.TestWomanDetails@7f552bd3]" started-at="2023-05-28T19:37:55 EEST" name="createWoman" finished-at="2023-05-28T19:37:55 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createWoman -->
+        <test-method is-config="true" signature="createMan()[pri:0, instance:persondetails.TestWomanDetails@7f552bd3]" started-at="2023-05-28T19:37:55 EEST" name="createMan" finished-at="2023-05-28T19:37:55 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createMan -->
+        <test-method is-config="true" signature="createMan()[pri:0, instance:persondetails.TestWomanDetails@7f552bd3]" started-at="2023-05-28T19:37:55 EEST" name="createMan" finished-at="2023-05-28T19:37:55 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createMan -->
+        <test-method signature="testPartnerGet()[pri:0, instance:persondetails.TestWomanDetails@7f552bd3]" started-at="2023-05-28T19:37:55 EEST" name="testPartnerGet" finished-at="2023-05-28T19:37:55 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPartnerGet -->
+        <test-method is-config="true" signature="createWoman()[pri:0, instance:persondetails.TestWomanDetails@7f552bd3]" started-at="2023-05-28T19:37:55 EEST" name="createWoman" finished-at="2023-05-28T19:37:55 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createWoman -->
+        <test-method is-config="true" signature="createWoman()[pri:0, instance:persondetails.TestWomanDetails@7f552bd3]" started-at="2023-05-28T19:37:55 EEST" name="createWoman" finished-at="2023-05-28T19:37:55 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createWoman -->
+        <test-method is-config="true" signature="createMan()[pri:0, instance:persondetails.TestWomanDetails@7f552bd3]" started-at="2023-05-28T19:37:55 EEST" name="createMan" finished-at="2023-05-28T19:37:55 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createMan -->
+        <test-method signature="testPartnerSet()[pri:0, instance:persondetails.TestWomanDetails@7f552bd3]" started-at="2023-05-28T19:37:55 EEST" name="testPartnerSet" finished-at="2023-05-28T19:37:55 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPartnerSet -->
+      </class> <!-- persondetails.TestWomanDetails -->
+      <class name="persondetails.TestManDetails">
+        <test-method is-config="true" signature="createMan()[pri:0, instance:persondetails.TestManDetails@4b0b0854]" started-at="2023-05-28T19:37:55 EEST" name="createMan" finished-at="2023-05-28T19:37:55 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createMan -->
+        <test-method is-config="true" signature="createWoman()[pri:0, instance:persondetails.TestManDetails@4b0b0854]" started-at="2023-05-28T19:37:55 EEST" name="createWoman" finished-at="2023-05-28T19:37:55 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createWoman -->
+        <test-method signature="testAgeGet()[pri:0, instance:persondetails.TestManDetails@4b0b0854]" started-at="2023-05-28T19:37:55 EEST" name="testAgeGet" finished-at="2023-05-28T19:37:55 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAgeGet -->
+        <test-method is-config="true" signature="createMan()[pri:0, instance:persondetails.TestManDetails@4b0b0854]" started-at="2023-05-28T19:37:55 EEST" name="createMan" finished-at="2023-05-28T19:37:55 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createMan -->
+        <test-method signature="testAgeSet()[pri:0, instance:persondetails.TestManDetails@4b0b0854]" started-at="2023-05-28T19:37:55 EEST" name="testAgeSet" finished-at="2023-05-28T19:37:55 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAgeSet -->
+        <test-method is-config="true" signature="createWoman()[pri:0, instance:persondetails.TestManDetails@4b0b0854]" started-at="2023-05-28T19:37:55 EEST" name="createWoman" finished-at="2023-05-28T19:37:55 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createWoman -->
+        <test-method signature="testFirstNameGet()[pri:0, instance:persondetails.TestManDetails@4b0b0854]" started-at="2023-05-28T19:37:55 EEST" name="testFirstNameGet" finished-at="2023-05-28T19:37:55 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFirstNameGet -->
+        <test-method is-config="true" signature="createWoman()[pri:0, instance:persondetails.TestManDetails@4b0b0854]" started-at="2023-05-28T19:37:55 EEST" name="createWoman" finished-at="2023-05-28T19:37:55 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createWoman -->
+        <test-method is-config="true" signature="createMan()[pri:0, instance:persondetails.TestManDetails@4b0b0854]" started-at="2023-05-28T19:37:55 EEST" name="createMan" finished-at="2023-05-28T19:37:55 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createMan -->
+        <test-method is-config="true" signature="createMan()[pri:0, instance:persondetails.TestManDetails@4b0b0854]" started-at="2023-05-28T19:37:55 EEST" name="createMan" finished-at="2023-05-28T19:37:55 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createMan -->
+        <test-method is-config="true" signature="createWoman()[pri:0, instance:persondetails.TestManDetails@4b0b0854]" started-at="2023-05-28T19:37:55 EEST" name="createWoman" finished-at="2023-05-28T19:37:55 EEST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createWoman -->
+        <test-method signature="testFirstNameSet()[pri:0, instance:persondetails.TestManDetails@4b0b0854]" started-at="2023-05-28T19:37:55 EEST" name="testFirstNameSet" finished-at="2023-05-28T19:37:55 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFirstNameSet -->
+        <test-method is-config="true" signature="createMan()[pri:0, instance:persondetails.TestManDetails@4b0b0854]" started-at="2023-05-28T19:37:55 EEST" name="createMan" finished-at="2023-05-28T19:37:55 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createMan -->
+        <test-method is-config="true" signature="createWoman()[pri:0, instance:persondetails.TestManDetails@4b0b0854]" started-at="2023-05-28T19:37:55 EEST" name="createWoman" finished-at="2023-05-28T19:37:55 EEST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createWoman -->
+        <test-method signature="testHobbyGet()[pri:0, instance:persondetails.TestManDetails@4b0b0854]" started-at="2023-05-28T19:37:55 EEST" name="testHobbyGet" finished-at="2023-05-28T19:37:55 EEST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHobbyGet -->
+        <test-method signature="testHobbySet()[pri:0, instance:persondetails.TestManDetails@4b0b0854]" started-at="2023-05-28T19:37:55 EEST" name="testHobbySet" finished-at="2023-05-28T19:37:55 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHobbySet -->
+        <test-method is-config="true" signature="createMan()[pri:0, instance:persondetails.TestManDetails@4b0b0854]" started-at="2023-05-28T19:37:55 EEST" name="createMan" finished-at="2023-05-28T19:37:55 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createMan -->
+        <test-method is-config="true" signature="createWoman()[pri:0, instance:persondetails.TestManDetails@4b0b0854]" started-at="2023-05-28T19:37:55 EEST" name="createWoman" finished-at="2023-05-28T19:37:55 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createWoman -->
+        <test-method is-config="true" signature="createMan()[pri:0, instance:persondetails.TestManDetails@4b0b0854]" started-at="2023-05-28T19:37:55 EEST" name="createMan" finished-at="2023-05-28T19:37:55 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createMan -->
+        <test-method is-config="true" signature="createWoman()[pri:0, instance:persondetails.TestManDetails@4b0b0854]" started-at="2023-05-28T19:37:55 EEST" name="createWoman" finished-at="2023-05-28T19:37:55 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createWoman -->
+        <test-method signature="testIfContain()[pri:0, instance:persondetails.TestManDetails@4b0b0854]" started-at="2023-05-28T19:37:55 EEST" name="testIfContain" finished-at="2023-05-28T19:37:55 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIfContain -->
+        <test-method is-config="true" signature="createMan()[pri:0, instance:persondetails.TestManDetails@4b0b0854]" started-at="2023-05-28T19:37:55 EEST" name="createMan" finished-at="2023-05-28T19:37:55 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createMan -->
+        <test-method signature="testIfHasBadge()[pri:0, instance:persondetails.TestManDetails@4b0b0854]" started-at="2023-05-28T19:37:55 EEST" name="testIfHasBadge" finished-at="2023-05-28T19:37:55 EEST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIfHasBadge -->
+        <test-method is-config="true" signature="createWoman()[pri:0, instance:persondetails.TestManDetails@4b0b0854]" started-at="2023-05-28T19:37:55 EEST" name="createWoman" finished-at="2023-05-28T19:37:55 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createWoman -->
+        <test-method is-config="true" signature="createMan()[pri:0, instance:persondetails.TestManDetails@4b0b0854]" started-at="2023-05-28T19:37:55 EEST" name="createMan" finished-at="2023-05-28T19:37:55 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createMan -->
+        <test-method signature="testIfManRetired()[pri:0, instance:persondetails.TestManDetails@4b0b0854]" started-at="2023-05-28T19:37:55 EEST" name="testIfManRetired" finished-at="2023-05-28T19:37:55 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIfManRetired -->
+        <test-method is-config="true" signature="createWoman()[pri:0, instance:persondetails.TestManDetails@4b0b0854]" started-at="2023-05-28T19:37:55 EEST" name="createWoman" finished-at="2023-05-28T19:37:55 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createWoman -->
+        <test-method signature="testLastNameGet()[pri:0, instance:persondetails.TestManDetails@4b0b0854]" started-at="2023-05-28T19:37:55 EEST" name="testLastNameGet" finished-at="2023-05-28T19:37:55 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLastNameGet -->
+        <test-method is-config="true" signature="createWoman()[pri:0, instance:persondetails.TestManDetails@4b0b0854]" started-at="2023-05-28T19:37:55 EEST" name="createWoman" finished-at="2023-05-28T19:37:55 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createWoman -->
+        <test-method is-config="true" signature="createMan()[pri:0, instance:persondetails.TestManDetails@4b0b0854]" started-at="2023-05-28T19:37:55 EEST" name="createMan" finished-at="2023-05-28T19:37:55 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createMan -->
+        <test-method is-config="true" signature="createMan()[pri:0, instance:persondetails.TestManDetails@4b0b0854]" started-at="2023-05-28T19:37:55 EEST" name="createMan" finished-at="2023-05-28T19:37:55 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createMan -->
+        <test-method is-config="true" signature="createWoman()[pri:0, instance:persondetails.TestManDetails@4b0b0854]" started-at="2023-05-28T19:37:55 EEST" name="createWoman" finished-at="2023-05-28T19:37:55 EEST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createWoman -->
+        <test-method signature="testLastNameSet()[pri:0, instance:persondetails.TestManDetails@4b0b0854]" started-at="2023-05-28T19:37:55 EEST" name="testLastNameSet" finished-at="2023-05-28T19:37:55 EEST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLastNameSet -->
+        <test-method is-config="true" signature="createMan()[pri:0, instance:persondetails.TestManDetails@4b0b0854]" started-at="2023-05-28T19:37:55 EEST" name="createMan" finished-at="2023-05-28T19:37:55 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createMan -->
+        <test-method is-config="true" signature="createWoman()[pri:0, instance:persondetails.TestManDetails@4b0b0854]" started-at="2023-05-28T19:37:55 EEST" name="createWoman" finished-at="2023-05-28T19:37:55 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createWoman -->
+        <test-method signature="testPartnerGet()[pri:0, instance:persondetails.TestManDetails@4b0b0854]" started-at="2023-05-28T19:37:55 EEST" name="testPartnerGet" finished-at="2023-05-28T19:37:55 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPartnerGet -->
+        <test-method is-config="true" signature="createMan()[pri:0, instance:persondetails.TestManDetails@4b0b0854]" started-at="2023-05-28T19:37:55 EEST" name="createMan" finished-at="2023-05-28T19:37:55 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createMan -->
+        <test-method signature="testPartnerSet()[pri:0, instance:persondetails.TestManDetails@4b0b0854]" started-at="2023-05-28T19:37:55 EEST" name="testPartnerSet" finished-at="2023-05-28T19:37:55 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPartnerSet -->
+        <test-method is-config="true" signature="createWoman()[pri:0, instance:persondetails.TestManDetails@4b0b0854]" started-at="2023-05-28T19:37:55 EEST" name="createWoman" finished-at="2023-05-28T19:37:55 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createWoman -->
+      </class> <!-- persondetails.TestManDetails -->
+    </test> <!-- Regression: all tests -->
+  </suite> <!-- Regression test run -->
+</testng-results>
